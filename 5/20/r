@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#echo "[Compile]:"
+#time -f "Time:%Es" javac Main.java
+
+#echo "\n[Run]:"
+#echo "=Output="
+
+#time -f "=Output=\nTime: %Es" java Main
+
+javac Main.java;java Main
+

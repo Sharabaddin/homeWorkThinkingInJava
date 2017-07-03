@@ -1,0 +1,3 @@
+class Student {
+    String name;
+}

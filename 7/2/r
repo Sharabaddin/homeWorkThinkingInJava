@@ -1,0 +1,3 @@
+#!/bin/sh
+javac com/sharabaddin/Car.java
+java com.sharabaddin.Car
