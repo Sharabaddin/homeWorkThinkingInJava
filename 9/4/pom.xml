@@ -15,4 +15,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+      <build>
+          <plugins>
+              <plugin>
+                  <groupId>org.codehaus.mojo</groupId>
+                  <artifactId>exec-maven-plugin</artifactId>
+                  <version>1.2.1</version>
+                  <configuration>
+                      <mainClass>com.sharabaddin.app.App</mainClass>
+                      <arguments>
+                          <argument>argument1</argument>
+                      </arguments>
+                  </configuration>
+              </plugin>
+          </plugins>
+      </build>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 </project>
