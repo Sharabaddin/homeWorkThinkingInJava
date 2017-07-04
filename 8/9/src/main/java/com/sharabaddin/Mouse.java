@@ -12,10 +12,6 @@ public class Mouse extends Rodent {
     }
 
     public boolean go() {
-        if (name.length() != 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return name.length() != 0;
     }
 }

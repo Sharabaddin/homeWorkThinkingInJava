@@ -8,7 +8,7 @@ public class HamsterTest extends TestCase{
 
     public void testGetName() {
         Hamster Hamster = new Hamster("Benya");
-        assertEquals(Hamster.getName() , "Iam a hamster. My name is Benya");
+        assertEquals(Hamster.getName(), "Iam a hamster. My name is Benya");
     }
 
     public void testGo() {
@@ -16,6 +16,6 @@ public class HamsterTest extends TestCase{
         assertTrue(Hamster.go());
 
         Hamster HamsterEmpty = new Hamster("");
-         assertFalse(HamsterEmpty.go());        
+        assertFalse(HamsterEmpty.go());        
     }
 }
